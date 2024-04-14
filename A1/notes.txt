@@ -1,0 +1,17 @@
+
+
+
+'''
+Notes:
+    - init weights with orthogonal with 0 is bad, mean_psnr starts at 5, really slow and shit
+    - init weights with kaiming
+    - batch normalization doesn't really work, its really shit
+
+    Results:
+        - 90 mins, 64 channels, 17 hidden layers, init 0 bias, kaiming norm, mean psnr: 31.8, 300 epochs, lr 1e-6
+        - 10 mins, 64 channels, 6 hidden layers, same init values, mean psnr 31.3, 82 epochs
+        - 
+TODO:
+    - histrogram plots
+'''
+
