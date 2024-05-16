@@ -1,0 +1,14 @@
+
+NNs to try:
+
+- LeNet
+- AlexNet
+- VGG16
+- GoogleNet - high hopes
+- ResNet - low hopes
+- Vision Transformers?
+- DCGAN or styleGAN (Autoencoder stype for classification)
+
+Test against pre-trained models?
+
+Dropout, normalization, optimizers?
